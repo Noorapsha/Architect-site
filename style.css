@@ -1,0 +1,323 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana,sans-serif;
+}
+
+.container{
+    display: grid;
+}
+
+.box{
+    /* border: 1px solid tomato; */
+    margin-top: 5px;
+}
+.box_1{
+    border: none;
+    height: 50px;
+    margin-top: 0px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.main_tag{
+    float: left;
+    margin-top: 15px;
+}
+
+.logo{
+    color: #000;
+    margin-left: 20px;
+    font-size: 17px;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    padding: 8px 12px;
+    /* border: 1px solid #487694; */
+}
+
+:hover.logo{
+    background-color: rgb(207, 207, 207);
+}
+
+.menu_bar{
+    float: right;
+    margin-top: 15px;
+  
+}
+
+
+
+.menu{
+    color: #000;
+    margin-right: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 8px 12px;
+    /* border: 1px solid #487694; */
+}
+
+:hover.menu{
+    background-color: rgb(207, 207, 207);
+}
+
+.box_2{
+    border: none;
+    margin-top: 0px;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/architect.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: "";
+}
+
+/* .box_2::before{
+    position: absolute;
+    width: 100%;
+    height: 110vh;
+    z-index: -1;
+    opacity: 0.8;
+    
+} */
+
+.look_logo{
+    /* height: 100px; */
+    width: 345px;
+    /* border: 1px solid tomato; */
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.logo_1{
+    float:left;
+    /* border: 1px solid green; */
+    color: #fff;
+}
+
+#ar{
+    padding: 10px;
+    font-weight: bold;
+    background-color: rgb(49, 48, 48);
+}
+#tech{
+    padding: 10px 0px;
+    margin-left: 15px;
+}
+
+
+.box_3{
+    height: 95vh;
+    margin-top: 40px;
+}
+
+.project_heading{
+    margin-left: 25px;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.project_hr{
+    margin-bottom: 40px;
+    width: 96%;
+}
+
+.project_tag{
+    height: 210px;
+    width: 23%;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 1%;
+    margin-top: 10px;
+}
+
+#project_tag_1{
+    margin-left: 2%;
+    background-image: url(../img/Summer\ House.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project_btn{
+    margin: 0px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: black;
+    color: #fff;
+}
+
+#project_tag_2{
+    background-image: url(../img/house1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#project_tag_3{
+    background-image: url(../img/Renovated.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#project_tag_4{
+    background-image: url(../img/Barn\ House.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#project_tag_5{
+    margin-left: 2%;
+    background-image: url(../img/house1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#project_tag_6{
+    background-image: url(../img/Summer\ House.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#project_tag_7{
+    background-image: url(../img/Barn\ House.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#project_tag_8{
+    background-image: url(../img/Renovated.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.box_4{
+    height: 100vh;
+}
+
+.about_heading{
+    /* margin: 0px; */
+    margin-left: 35px;
+    /* margin-bottom: 15px; */
+}
+.about_hr{
+    margin-bottom: 20px;
+    width: 96%;
+    border-color: rgb(254, 255, 255);
+    /* margin-top: 15px; */
+}
+
+.about_para{
+    /* margin-top: 20px; */
+    width: 96%;
+    margin-left: 2.5%;
+}
+
+.about_info{
+    margin-top: 40px;
+    height: 420px;
+    width: 23%;
+    margin-left: 1%;
+    float: left;
+    /* border: 1px solid black; */
+
+}
+
+.about_info_1{
+    margin-left: 2.4%;
+}
+
+.image_people{
+    width: 100%;
+    height: 50%;
+}
+
+.people_name{
+    font-size: 25px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.people_post{
+    font-size: 18px;
+    margin-top: 12px;
+    color: rgb(150, 163, 163);
+}
+
+.people_para{
+    font-size: 15px;
+}
+
+.people_btn{
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+}
+
+.box_5{
+    height: 60vh;
+    margin-top: 10px;
+}
+
+.contact_heading{
+    margin-left: 2.5%;
+}
+
+.contact_hr{
+    width: 94%;
+    border: 1px solid rgb(241, 240, 240);
+}
+
+.contact_para{
+    margin-left: 2.5%;
+}
+
+.input{
+    display: block;
+    width: 94%;
+    height: 36px;
+    margin-left: 2.5%;
+    margin-top: 15px;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+#submit{
+    margin-top: 30px;
+    width: 12%;
+    height: 35px;
+    font-size: 16px;
+    margin-left: 2.5%;
+    border: none;
+    background-color: #000;
+    color: #fff;
+}
+
+.box_6{
+    height: 110vh;
+    width: 96%;
+    margin-left: 2.5%;
+    margin-top: 40px;
+    background-image: url(../img/show.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box_7{
+    height: 15vh;
+    margin-top: 0px;
+    background-color: #000;
+}
+
+.creadit{
+    color: #fff;
+    height: 20px;
+    width: 200px;
+    margin: auto;
+    margin-top: 40px;
+}
